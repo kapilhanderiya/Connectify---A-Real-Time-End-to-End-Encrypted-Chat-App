@@ -156,7 +156,7 @@ export const useChatStore = create((set, get) => ({
       const allMessages = [...decryptedReceivedMessages, ...relevantSentMessages];
 
       // Sort messages by timestamp
-      allMessages.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+      allMessages.sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
 
       // Update the state with all messages
       set({ messages: allMessages });
