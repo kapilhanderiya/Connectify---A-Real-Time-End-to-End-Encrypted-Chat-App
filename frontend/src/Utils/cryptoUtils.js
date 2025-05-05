@@ -44,7 +44,6 @@ export async function getPrivateKeyFromIndexedDB() {
     // Wait for the request to complete and get the result
     const keyBase64 = await new Promise((resolve, reject) => {
       request.onsuccess = () => {
-        console.log("Retrieved Private Key (Base64):", request.result);
         resolve(request.result);
       };
       request.onerror = () => {
