@@ -22,7 +22,7 @@ Connectify is a full-stack chat application that provides end-to-end encryption 
 - **Zustand**: For state management.
 - **React Router**: For client-side routing.
 - **Socket.IO Client**: For real-time communication.
-- - **RSA (Asymmetric Encryption)**: For encrypting messages and securely exchanging keys.
+- **RSA (Asymmetric Encryption)**: For encrypting messages and securely exchanging keys.
 
 ### Backend
 - **Node.js**: For server-side logic.
