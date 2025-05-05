@@ -33,7 +33,8 @@ Connectify is a full-stack chat application that provides end-to-end encryption 
 - **Cloudinary**: For image storage.
 - **JWT**: For secure authentication.
 
-##Setup
+
+## Setup
 
 ### Setup .env file
 
