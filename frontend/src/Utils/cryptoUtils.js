@@ -23,8 +23,6 @@ export async function savePrivateKeyToIndexedDB(privateKey) {
     const exportedKey = await window.crypto.subtle.exportKey("pkcs8", privateKey); // Export the private key
     const keyBase64 = btoa(String.fromCharCode(...new Uint8Array(exportedKey))); // Convert to Base64
 
-    console.log("Base64-encoded Private Key (to be saved):", keyBase64);
-
     const db = await openDatabase(); // Open IndexedDB
     const tx = db.transaction("keys", "readwrite");
     tx.objectStore("keys").put(keyBase64, "privateKey"); // Save the private key
