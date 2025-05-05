@@ -2,6 +2,7 @@
 
 Connectify is a full-stack chat application that provides end-to-end encryption for secure communication. It allows users to send and receive messages in real-time, ensuring privacy and security.
 
+![Demo App](frontend/public/screenshot-for-readme.png)
 
 ## Features
 
