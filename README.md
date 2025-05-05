@@ -43,7 +43,7 @@ PORT=5073
 MONGODB_URI=your-mongodb-uri
 JWT_SECRET=your-jwt-secret
 
-CLOUDINARY_CLOUD_NAMEyour-cloudinary-cloud-name
+CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
 CLOUDINARY_API_KEY=your-cloudinary-api-key
 CLOUDINARY_API_SECRET=your-cloudinary-api-secret
 
