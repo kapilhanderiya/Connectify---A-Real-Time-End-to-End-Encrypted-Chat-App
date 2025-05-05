@@ -39,13 +39,13 @@ Connectify is a full-stack chat application that provides end-to-end encryption 
 ### Setup .env file
 
 ```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
+PORT=5073
+MONGODB_URI=your-mongodb-uri
+JWT_SECRET=your-jwt-secret
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+CLOUDINARY_CLOUD_NAMEyour-cloudinary-cloud-name
+CLOUDINARY_API_KEY=your-cloudinary-api-key
+CLOUDINARY_API_SECRET=your-cloudinary-api-secret
 
 NODE_ENV=development
 ```
