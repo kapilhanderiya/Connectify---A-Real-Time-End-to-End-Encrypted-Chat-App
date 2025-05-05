@@ -2,16 +2,16 @@
 
 Connectify is a full-stack chat application that provides end-to-end encryption for secure communication. It allows users to send and receive messages in real-time, ensuring privacy and security.
 
-##Highlights:
 
--  Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--  Authentication && Authorization with JWT
--  Real-time messaging with Socket.io
--  Online user status
--  Global state management with Zustand
--  Error handling both on the server and on the client
--  End-to-End Encrypted using RSA
--  
+## Features
+
+- **End-to-End Encryption**: Messages are encrypted and decryptedg locally for secure communication.
+- **Real-Time Messaging**: Powered by Socket.IO for instant message delivery.
+- **User Authentication and Authorization**: Secure signup, login, and logout functionality with JWT-based authorization.
+- **Global State Management**: Zustand is used for efficient and lightweight state management across the application.
+- **Error Handling**: Comprehensive error handling for both frontend and backend to ensure a smooth user experience.
+- **Online Status**: View online users in real-time.
+
 
 ## Tech Stack
 
@@ -22,6 +22,7 @@ Connectify is a full-stack chat application that provides end-to-end encryption 
 - **Zustand**: For state management.
 - **React Router**: For client-side routing.
 - **Socket.IO Client**: For real-time communication.
+- - **RSA (Asymmetric Encryption)**: For encrypting messages and securely exchanging keys.
 
 ### Backend
 - **Node.js**: For server-side logic.
